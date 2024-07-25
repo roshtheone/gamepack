@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cross Tic Crack </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> Cross Tic Crack</h1>
+    <div class="input-names">
+        <input type="text" id="playerXName" placeholder="Enter Player X Name">
+        <input type="text" id="playerOName" placeholder="Enter Player O Name">
+        <button id="startGameBtn">Start Game</button>
+    </div>
+    <div class="challengers" style="display:none;">
+        <div id="challengerX"></div>
+        <div id="challengerO"></div>
+    </div>
+    <div class="game-board" id="gameBoard">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <div class="status" id="status"></div>
+    <button id="restartBtn" style="display:none;">New Hit</button>
+    <div class="winner-container" id="winnerContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
